@@ -1,5 +1,5 @@
 class Solution {
-    // Tabulation
+    // Rec + memo
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length+1;
         int dp[] = new int[n];
